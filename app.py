@@ -1,11 +1,3 @@
-"""
-Optional Streamlit dashboard (run locally):
-    streamlit run app.py
-
-Covers the same exam flow in one interactive page: stats, chart, table,
-rule-based status, and the saved Decision Tree prediction.
-"""
-
 from __future__ import annotations
 
 import sys
@@ -17,7 +9,7 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "src"))
 
-from utils import CSV_PATH, MODEL_PATH, classify_status  # noqa: E402
+from utils import CSV_PATH, MODEL_PATH, classify_status
 
 st.set_page_config(page_title="RackSense", layout="wide")
 st.title("RackSense — server-room monitor")

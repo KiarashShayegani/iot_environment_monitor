@@ -1,13 +1,3 @@
-"""
-Shared environment-status rules for the IoT server-room monitor.
-
-All temperature cut-offs live here. If the professor changes thresholds,
-adds humidity to the warning condition, or asks you to handle None values,
-this is the only file you should have to edit for the classification logic.
-
-Other scripts import classify_status() so they stay in sync.
-"""
-
 from __future__ import annotations
 
 import logging
@@ -25,7 +15,7 @@ PLOT_PATH = PLOTS_DIR / "temperature_over_time.png"
 LOG_PATH = LOGS_DIR / "run.log"
 
 # --- Tunable constants (professor-change friendly) ---------------------------
-NUM_SAMPLES = 200  # change this number; must stay >= 50
+NUM_SAMPLES = 250  # change this number; must stay >= 50
 
 TEMP_MIN = 15.0
 TEMP_MAX = 40.0

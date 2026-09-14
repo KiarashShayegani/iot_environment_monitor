@@ -1,7 +1,3 @@
-"""
-Section 4 — statistical analysis of the labelled CSV.
-"""
-
 from __future__ import annotations
 
 import sys

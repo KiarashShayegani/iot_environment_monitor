@@ -1,7 +1,3 @@
-"""
-Section 5 — temperature over time, with Warning / Critical markers.
-"""
-
 from __future__ import annotations
 
 import sys

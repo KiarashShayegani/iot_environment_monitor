@@ -1,10 +1,3 @@
-"""
-Section 6 — Decision Tree classifier.
-
-Inputs : Temperature, Humidity
-Output : Normal / Warning / Critical
-"""
-
 from __future__ import annotations
 
 import sys
@@ -17,7 +10,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from utils import CSV_PATH, MODEL_PATH, ensure_dirs, setup_logging  # noqa: E402
+from utils import CSV_PATH, MODEL_PATH, ensure_dirs, setup_logging
 
 logger = setup_logging()
 

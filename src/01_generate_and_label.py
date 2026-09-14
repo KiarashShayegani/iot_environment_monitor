@@ -1,10 +1,3 @@
-"""
-Section 1 + 2 + 3
-Generate sensor samples, apply status labels, save/reload CSV.
-
-Change NUM_SAMPLES in utils.py to produce more or fewer rows.
-"""
-
 from __future__ import annotations
 
 import sys
@@ -15,7 +8,7 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from utils import (  # noqa: E402
+from utils import (
     CSV_PATH,
     HUM_MAX,
     HUM_MIN,
