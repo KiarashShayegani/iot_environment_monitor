@@ -34,7 +34,7 @@ def generate_series(n: int, seed: int = 42) -> pd.DataFrame:
 
     for i in range(n):
         temp += float(rng.normal(0, 0.55))
-        hum += float(rng.normal(0, 0.9))
+        hum += float(rng.normal(0, 2.2))
         if rng.random() < 0.05:
             temp += float(rng.uniform(3.5, 9.0))
         if rng.random() < 0.03:

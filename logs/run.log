@@ -699,3 +699,335 @@
 2026-09-15 14:13:16,717 | INFO | Plot saved to /data/work/projects/iot_environment_monitor/plots/temperature_over_time.png
 2026-09-15 14:13:17,426 | INFO | Saved model to /data/work/projects/iot_environment_monitor/models/decision_tree_model.joblib
 2026-09-15 14:13:17,432 | INFO | Predicted Warning for sample {'Temperature': 33.0, 'Humidity': 42.0} (accuracy=1.000)
+2026-09-15 18:26:10,388 | INFO | Generating 100 labelled sensor records
+2026-09-15 18:26:10,396 | INFO | Saved 100 records to /data/work/projects/iot_environment_monitor/data/sensor_data.csv
+2026-09-15 18:26:10,397 | INFO | Reloaded 100 records from /data/work/projects/iot_environment_monitor/data/sensor_data.csv
+2026-09-15 18:26:10,403 | WARNING | [WARNING] Temperature 30.6°C at 2026-09-15 11:26:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,403 | WARNING | [WARNING] Temperature 30.5°C at 2026-09-15 11:31:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,403 | WARNING | [WARNING] Temperature 30.8°C at 2026-09-15 11:36:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,403 | WARNING | [WARNING] Temperature 30.9°C at 2026-09-15 11:41:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,403 | WARNING | [WARNING] Temperature 30.5°C at 2026-09-15 11:46:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,403 | WARNING | [WARNING] Temperature 30.8°C at 2026-09-15 11:51:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,403 | WARNING | [WARNING] Temperature 31.0°C at 2026-09-15 11:56:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,403 | WARNING | [WARNING] Temperature 31.0°C at 2026-09-15 12:01:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,404 | WARNING | [WARNING] Temperature 30.4°C at 2026-09-15 12:06:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,404 | WARNING | [WARNING] Temperature 31.2°C at 2026-09-15 12:11:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,404 | WARNING | [WARNING] Temperature 31.0°C at 2026-09-15 12:16:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,404 | WARNING | [WARNING] Temperature 30.1°C at 2026-09-15 12:21:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,404 | WARNING | [WARNING] Temperature 36.7°C at 2026-09-15 13:06:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,405 | WARNING | [WARNING] Temperature 36.6°C at 2026-09-15 13:11:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,405 | WARNING | [WARNING] Temperature 36.6°C at 2026-09-15 13:16:10 is above the safe band. Check cooling.
+2026-09-15 18:26:10,405 | WARNING | [CRITICAL] Temperature 42.9°C at 2026-09-15 13:21:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,405 | WARNING | [CRITICAL] Temperature 42.4°C at 2026-09-15 13:26:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,405 | WARNING | [CRITICAL] Temperature 42.6°C at 2026-09-15 13:31:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,405 | WARNING | [CRITICAL] Temperature 42.9°C at 2026-09-15 13:36:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,405 | WARNING | [CRITICAL] Temperature 43.0°C at 2026-09-15 13:41:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,405 | WARNING | [CRITICAL] Temperature 43.1°C at 2026-09-15 13:46:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,405 | WARNING | [CRITICAL] Temperature 43.7°C at 2026-09-15 13:51:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,405 | WARNING | [CRITICAL] Temperature 43.1°C at 2026-09-15 13:56:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,405 | WARNING | [CRITICAL] Temperature 43.0°C at 2026-09-15 14:01:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,405 | WARNING | [CRITICAL] Temperature 43.7°C at 2026-09-15 14:06:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 48.5°C at 2026-09-15 14:11:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 48.9°C at 2026-09-15 14:16:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 48.2°C at 2026-09-15 14:21:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 47.5°C at 2026-09-15 14:26:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 47.2°C at 2026-09-15 14:31:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 44.2°C at 2026-09-15 14:36:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 44.4°C at 2026-09-15 14:41:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 45.7°C at 2026-09-15 14:46:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 49.0°C at 2026-09-15 14:51:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 48.7°C at 2026-09-15 14:56:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 48.4°C at 2026-09-15 15:01:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 47.6°C at 2026-09-15 15:06:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 48.6°C at 2026-09-15 15:11:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,406 | WARNING | [CRITICAL] Temperature 48.8°C at 2026-09-15 15:16:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 49.2°C at 2026-09-15 15:21:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 48.4°C at 2026-09-15 15:26:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 48.1°C at 2026-09-15 15:31:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 48.3°C at 2026-09-15 15:36:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 48.5°C at 2026-09-15 15:41:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 48.7°C at 2026-09-15 15:46:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 48.1°C at 2026-09-15 15:51:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 47.1°C at 2026-09-15 15:56:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 46.9°C at 2026-09-15 16:01:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 46.8°C at 2026-09-15 16:06:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 45.4°C at 2026-09-15 16:11:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 45.2°C at 2026-09-15 16:16:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,407 | WARNING | [CRITICAL] Temperature 44.4°C at 2026-09-15 16:21:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 43.8°C at 2026-09-15 16:26:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 44.7°C at 2026-09-15 16:31:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 45.0°C at 2026-09-15 16:36:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 44.6°C at 2026-09-15 16:41:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 44.5°C at 2026-09-15 16:46:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 44.9°C at 2026-09-15 16:51:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 44.6°C at 2026-09-15 16:56:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 44.0°C at 2026-09-15 17:01:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 44.2°C at 2026-09-15 17:06:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 44.4°C at 2026-09-15 17:11:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 43.3°C at 2026-09-15 17:16:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 44.1°C at 2026-09-15 17:21:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 44.5°C at 2026-09-15 17:26:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,408 | WARNING | [CRITICAL] Temperature 44.7°C at 2026-09-15 17:31:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,409 | WARNING | [CRITICAL] Temperature 44.9°C at 2026-09-15 17:36:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,409 | WARNING | [CRITICAL] Temperature 45.7°C at 2026-09-15 17:41:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,409 | WARNING | [CRITICAL] Temperature 46.2°C at 2026-09-15 17:46:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,409 | WARNING | [CRITICAL] Temperature 46.6°C at 2026-09-15 17:51:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,409 | WARNING | [CRITICAL] Temperature 42.1°C at 2026-09-15 17:56:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,409 | WARNING | [CRITICAL] Temperature 41.3°C at 2026-09-15 18:01:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,409 | WARNING | [CRITICAL] Temperature 41.5°C at 2026-09-15 18:06:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,409 | WARNING | [CRITICAL] Temperature 40.2°C at 2026-09-15 18:11:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,409 | WARNING | [CRITICAL] Temperature 40.6°C at 2026-09-15 18:16:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,409 | WARNING | [CRITICAL] Temperature 40.9°C at 2026-09-15 18:21:10 exceeds the critical limit. Immediate action required.
+2026-09-15 18:26:10,409 | INFO | Alert count: 76 of 100 records
+2026-09-15 18:26:10,737 | INFO | Analysis complete: {'mean_temperature': 38.852599999999995, 'min_temperature': 24.34, 'max_temperature': 49.2, 'mean_humidity': 45.2567, 'count_normal': 24, 'count_warning': 15, 'count_critical': 61, 'n': 100}
+2026-09-15 18:26:13,273 | INFO | Plot saved to /data/work/projects/iot_environment_monitor/plots/temperature_over_time.png
+2026-09-15 18:26:17,548 | INFO | Saved model to /data/work/projects/iot_environment_monitor/models/decision_tree_model.joblib
+2026-09-15 18:26:17,554 | INFO | Predicted Warning for sample {'Temperature': 33.0, 'Humidity': 42.0} (accuracy=1.000)
+2026-09-15 18:36:05,768 | INFO | Generating 100 labelled sensor records
+2026-09-15 18:36:05,772 | INFO | Saved 100 records to /data/work/projects/iot_environment_monitor/data/sensor_data.csv
+2026-09-15 18:36:05,773 | INFO | Reloaded 100 records from /data/work/projects/iot_environment_monitor/data/sensor_data.csv
+2026-09-15 18:36:05,776 | WARNING | [WARNING] Temperature 30.6°C at 2026-09-15 11:36:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,776 | WARNING | [WARNING] Temperature 30.5°C at 2026-09-15 11:41:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,776 | WARNING | [WARNING] Temperature 30.8°C at 2026-09-15 11:46:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,776 | WARNING | [WARNING] Temperature 30.9°C at 2026-09-15 11:51:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,776 | WARNING | [WARNING] Temperature 30.5°C at 2026-09-15 11:56:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,777 | WARNING | [WARNING] Temperature 30.8°C at 2026-09-15 12:01:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,777 | WARNING | [WARNING] Temperature 31.0°C at 2026-09-15 12:06:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,777 | WARNING | [WARNING] Temperature 31.0°C at 2026-09-15 12:11:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,777 | WARNING | [WARNING] Temperature 30.4°C at 2026-09-15 12:16:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,777 | WARNING | [WARNING] Temperature 31.2°C at 2026-09-15 12:21:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,777 | WARNING | [WARNING] Temperature 31.0°C at 2026-09-15 12:26:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,777 | WARNING | [WARNING] Temperature 30.1°C at 2026-09-15 12:31:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,777 | WARNING | [WARNING] Temperature 36.7°C at 2026-09-15 13:16:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,777 | WARNING | [WARNING] Temperature 36.6°C at 2026-09-15 13:21:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,777 | WARNING | [WARNING] Temperature 36.6°C at 2026-09-15 13:26:05 is above the safe band. Check cooling.
+2026-09-15 18:36:05,777 | WARNING | [CRITICAL] Temperature 42.9°C at 2026-09-15 13:31:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 42.4°C at 2026-09-15 13:36:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 42.6°C at 2026-09-15 13:41:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 42.9°C at 2026-09-15 13:46:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 43.0°C at 2026-09-15 13:51:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 43.1°C at 2026-09-15 13:56:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 43.7°C at 2026-09-15 14:01:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 43.1°C at 2026-09-15 14:06:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 43.0°C at 2026-09-15 14:11:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 43.7°C at 2026-09-15 14:16:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 48.5°C at 2026-09-15 14:21:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 48.9°C at 2026-09-15 14:26:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 48.2°C at 2026-09-15 14:31:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 47.5°C at 2026-09-15 14:36:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,778 | WARNING | [CRITICAL] Temperature 47.2°C at 2026-09-15 14:41:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 44.2°C at 2026-09-15 14:46:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 44.4°C at 2026-09-15 14:51:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 45.7°C at 2026-09-15 14:56:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 49.0°C at 2026-09-15 15:01:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 48.7°C at 2026-09-15 15:06:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 48.4°C at 2026-09-15 15:11:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 47.6°C at 2026-09-15 15:16:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 48.6°C at 2026-09-15 15:21:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 48.8°C at 2026-09-15 15:26:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 49.2°C at 2026-09-15 15:31:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 48.4°C at 2026-09-15 15:36:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 48.1°C at 2026-09-15 15:41:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 48.3°C at 2026-09-15 15:46:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 48.5°C at 2026-09-15 15:51:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,779 | WARNING | [CRITICAL] Temperature 48.7°C at 2026-09-15 15:56:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 48.1°C at 2026-09-15 16:01:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 47.1°C at 2026-09-15 16:06:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 46.9°C at 2026-09-15 16:11:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 46.8°C at 2026-09-15 16:16:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 45.4°C at 2026-09-15 16:21:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 45.2°C at 2026-09-15 16:26:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 44.4°C at 2026-09-15 16:31:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 43.8°C at 2026-09-15 16:36:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 44.7°C at 2026-09-15 16:41:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 45.0°C at 2026-09-15 16:46:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 44.6°C at 2026-09-15 16:51:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 44.5°C at 2026-09-15 16:56:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 44.9°C at 2026-09-15 17:01:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 44.6°C at 2026-09-15 17:06:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,780 | WARNING | [CRITICAL] Temperature 44.0°C at 2026-09-15 17:11:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 44.2°C at 2026-09-15 17:16:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 44.4°C at 2026-09-15 17:21:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 43.3°C at 2026-09-15 17:26:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 44.1°C at 2026-09-15 17:31:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 44.5°C at 2026-09-15 17:36:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 44.7°C at 2026-09-15 17:41:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 44.9°C at 2026-09-15 17:46:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 45.7°C at 2026-09-15 17:51:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 46.2°C at 2026-09-15 17:56:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 46.6°C at 2026-09-15 18:01:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 42.1°C at 2026-09-15 18:06:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 41.3°C at 2026-09-15 18:11:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 41.5°C at 2026-09-15 18:16:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 40.2°C at 2026-09-15 18:21:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,781 | WARNING | [CRITICAL] Temperature 40.6°C at 2026-09-15 18:26:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,782 | WARNING | [CRITICAL] Temperature 40.9°C at 2026-09-15 18:31:05 exceeds the critical limit. Immediate action required.
+2026-09-15 18:36:05,782 | INFO | Alert count: 76 of 100 records
+2026-09-15 18:36:06,083 | INFO | Analysis complete: {'mean_temperature': 38.852599999999995, 'min_temperature': 24.34, 'max_temperature': 49.2, 'mean_humidity': 45.2567, 'count_normal': 24, 'count_warning': 15, 'count_critical': 61, 'n': 100}
+2026-09-15 18:36:06,931 | INFO | Plot saved to /data/work/projects/iot_environment_monitor/plots/temperature_over_time.png
+2026-09-15 18:36:07,635 | INFO | Saved model to /data/work/projects/iot_environment_monitor/models/decision_tree_model.joblib
+2026-09-15 18:36:07,641 | INFO | Predicted Warning for sample {'Temperature': 33.0, 'Humidity': 42.0} (accuracy=1.000)
+2026-09-15 18:59:30,298 | INFO | Generating 100 labelled sensor records
+2026-09-15 18:59:30,302 | INFO | Saved 100 records to /data/work/projects/iot_environment_monitor/data/sensor_data.csv
+2026-09-15 18:59:30,304 | INFO | Reloaded 100 records from /data/work/projects/iot_environment_monitor/data/sensor_data.csv
+2026-09-15 18:59:30,309 | INFO | Alert count: 0 of 100 records
+2026-09-15 18:59:30,612 | INFO | Analysis complete: {'mean_temperature': 38.852599999999995, 'min_temperature': 24.34, 'max_temperature': 49.2, 'mean_humidity': 45.2567, 'count_normal': 100, 'count_warning': 0, 'count_critical': 0, 'n': 100}
+2026-09-15 18:59:31,446 | INFO | Plot saved to /data/work/projects/iot_environment_monitor/plots/temperature_over_time.png
+2026-09-15 18:59:32,151 | INFO | Saved model to /data/work/projects/iot_environment_monitor/models/decision_tree_model.joblib
+2026-09-15 18:59:32,156 | INFO | Predicted Normal for sample {'Temperature': 33.0, 'Humidity': 42.0} (accuracy=1.000)
+2026-09-15 19:03:56,463 | INFO | Generating 100 labelled sensor records
+2026-09-15 19:03:56,467 | INFO | Saved 100 records to /data/work/projects/iot_environment_monitor/data/sensor_data.csv
+2026-09-15 19:03:56,468 | INFO | Reloaded 100 records from /data/work/projects/iot_environment_monitor/data/sensor_data.csv
+2026-09-15 19:03:56,473 | INFO | Alert count: 0 of 100 records
+2026-09-15 19:03:56,776 | INFO | Analysis complete: {'mean_temperature': 38.852599999999995, 'min_temperature': 24.34, 'max_temperature': 49.2, 'mean_humidity': 41.2944, 'count_normal': 100, 'count_warning': 0, 'count_critical': 0, 'n': 100}
+2026-09-15 19:03:57,630 | INFO | Plot saved to /data/work/projects/iot_environment_monitor/plots/temperature_over_time.png
+2026-09-15 19:03:58,337 | INFO | Saved model to /data/work/projects/iot_environment_monitor/models/decision_tree_model.joblib
+2026-09-15 19:03:58,342 | INFO | Predicted Normal for sample {'Temperature': 33.0, 'Humidity': 42.0} (accuracy=1.000)
+2026-09-15 19:05:12,446 | INFO | Generating 100 labelled sensor records
+2026-09-15 19:05:12,450 | INFO | Saved 100 records to /data/work/projects/iot_environment_monitor/data/sensor_data.csv
+2026-09-15 19:05:12,451 | INFO | Reloaded 100 records from /data/work/projects/iot_environment_monitor/data/sensor_data.csv
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 44.2°C at 2026-09-15 17:45:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 44.4°C at 2026-09-15 17:50:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 43.3°C at 2026-09-15 17:55:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 44.1°C at 2026-09-15 18:00:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 44.5°C at 2026-09-15 18:05:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 44.7°C at 2026-09-15 18:10:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 44.9°C at 2026-09-15 18:15:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 45.7°C at 2026-09-15 18:20:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 46.2°C at 2026-09-15 18:25:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 46.6°C at 2026-09-15 18:30:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 42.1°C at 2026-09-15 18:35:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 41.3°C at 2026-09-15 18:40:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 41.5°C at 2026-09-15 18:45:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,456 | WARNING | [CRITICAL] Temperature 40.2°C at 2026-09-15 18:50:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,457 | WARNING | [CRITICAL] Temperature 40.6°C at 2026-09-15 18:55:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,457 | WARNING | [CRITICAL] Temperature 40.9°C at 2026-09-15 19:00:12 exceeds the critical limit. Immediate action required.
+2026-09-15 19:05:12,457 | INFO | Alert count: 16 of 100 records
+2026-09-15 19:05:12,759 | INFO | Analysis complete: {'mean_temperature': 38.852599999999995, 'min_temperature': 24.34, 'max_temperature': 49.2, 'mean_humidity': 41.2944, 'count_normal': 84, 'count_warning': 0, 'count_critical': 16, 'n': 100}
+2026-09-15 19:05:13,599 | INFO | Plot saved to /data/work/projects/iot_environment_monitor/plots/temperature_over_time.png
+2026-09-15 19:05:14,309 | INFO | Saved model to /data/work/projects/iot_environment_monitor/models/decision_tree_model.joblib
+2026-09-15 19:05:14,314 | INFO | Predicted Normal for sample {'Temperature': 33.0, 'Humidity': 42.0} (accuracy=1.000)
+2026-09-15 19:06:21,650 | INFO | Generating 200 labelled sensor records
+2026-09-15 19:06:21,655 | INFO | Saved 200 records to /data/work/projects/iot_environment_monitor/data/sensor_data.csv
+2026-09-15 19:06:21,656 | INFO | Reloaded 200 records from /data/work/projects/iot_environment_monitor/data/sensor_data.csv
+2026-09-15 19:06:21,661 | WARNING | [CRITICAL] Temperature 44.2°C at 2026-09-15 09:26:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,661 | WARNING | [CRITICAL] Temperature 44.4°C at 2026-09-15 09:31:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,661 | WARNING | [CRITICAL] Temperature 43.3°C at 2026-09-15 09:36:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,661 | WARNING | [CRITICAL] Temperature 44.1°C at 2026-09-15 09:41:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,661 | WARNING | [CRITICAL] Temperature 44.5°C at 2026-09-15 09:46:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,661 | WARNING | [CRITICAL] Temperature 44.7°C at 2026-09-15 09:51:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,661 | WARNING | [CRITICAL] Temperature 44.9°C at 2026-09-15 09:56:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,661 | WARNING | [CRITICAL] Temperature 45.7°C at 2026-09-15 10:01:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,661 | WARNING | [CRITICAL] Temperature 46.2°C at 2026-09-15 10:06:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,661 | WARNING | [CRITICAL] Temperature 46.6°C at 2026-09-15 10:11:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 42.1°C at 2026-09-15 10:16:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 41.3°C at 2026-09-15 10:21:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 41.5°C at 2026-09-15 10:26:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 40.2°C at 2026-09-15 10:31:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 40.6°C at 2026-09-15 10:36:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 40.9°C at 2026-09-15 10:41:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 41.4°C at 2026-09-15 10:46:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 41.3°C at 2026-09-15 10:51:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 40.5°C at 2026-09-15 10:56:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 40.3°C at 2026-09-15 11:01:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 40.3°C at 2026-09-15 11:06:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [WARNING] Temperature 40.0°C at 2026-09-15 11:11:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 40.4°C at 2026-09-15 11:16:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,662 | WARNING | [WARNING] Temperature 39.8°C at 2026-09-15 11:21:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,662 | WARNING | [CRITICAL] Temperature 40.4°C at 2026-09-15 11:26:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [WARNING] Temperature 40.0°C at 2026-09-15 11:31:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.2°C at 2026-09-15 11:36:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.8°C at 2026-09-15 11:41:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.7°C at 2026-09-15 11:46:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.7°C at 2026-09-15 11:51:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.9°C at 2026-09-15 11:56:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.0°C at 2026-09-15 12:01:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [WARNING] Temperature 39.9°C at 2026-09-15 12:06:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.1°C at 2026-09-15 12:11:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.4°C at 2026-09-15 12:16:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.4°C at 2026-09-15 12:21:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.5°C at 2026-09-15 12:26:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.0°C at 2026-09-15 12:31:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.4°C at 2026-09-15 12:36:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,663 | WARNING | [CRITICAL] Temperature 40.2°C at 2026-09-15 12:41:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 39.2°C at 2026-09-15 12:46:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 40.0°C at 2026-09-15 12:51:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 38.3°C at 2026-09-15 12:56:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 38.0°C at 2026-09-15 13:01:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 38.1°C at 2026-09-15 13:06:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 38.5°C at 2026-09-15 13:11:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 37.9°C at 2026-09-15 13:16:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 38.7°C at 2026-09-15 13:21:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 38.8°C at 2026-09-15 13:26:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 38.6°C at 2026-09-15 13:31:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 38.3°C at 2026-09-15 13:36:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 37.4°C at 2026-09-15 13:41:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 37.2°C at 2026-09-15 13:46:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 37.6°C at 2026-09-15 13:51:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,664 | WARNING | [WARNING] Temperature 37.8°C at 2026-09-15 13:56:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,665 | WARNING | [WARNING] Temperature 37.4°C at 2026-09-15 14:01:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,665 | WARNING | [WARNING] Temperature 37.1°C at 2026-09-15 14:06:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,665 | WARNING | [WARNING] Temperature 37.1°C at 2026-09-15 14:11:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,665 | WARNING | [WARNING] Temperature 37.0°C at 2026-09-15 14:16:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,665 | WARNING | [WARNING] Temperature 36.2°C at 2026-09-15 14:21:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,665 | WARNING | [WARNING] Temperature 36.3°C at 2026-09-15 14:26:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,665 | WARNING | [WARNING] Temperature 36.2°C at 2026-09-15 14:31:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,665 | WARNING | [WARNING] Temperature 36.0°C at 2026-09-15 14:36:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,665 | WARNING | [WARNING] Temperature 35.4°C at 2026-09-15 14:41:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,665 | WARNING | [WARNING] Temperature 34.7°C at 2026-09-15 14:46:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,665 | WARNING | [CRITICAL] Temperature 42.2°C at 2026-09-15 14:51:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,665 | WARNING | [CRITICAL] Temperature 42.7°C at 2026-09-15 14:56:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,665 | WARNING | [CRITICAL] Temperature 42.4°C at 2026-09-15 15:01:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,665 | WARNING | [CRITICAL] Temperature 48.2°C at 2026-09-15 15:06:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,665 | WARNING | [CRITICAL] Temperature 47.7°C at 2026-09-15 15:11:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 47.2°C at 2026-09-15 15:16:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 43.3°C at 2026-09-15 15:21:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 43.0°C at 2026-09-15 15:26:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 43.7°C at 2026-09-15 15:31:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 45.1°C at 2026-09-15 15:36:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 45.0°C at 2026-09-15 15:41:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 45.3°C at 2026-09-15 15:46:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 45.4°C at 2026-09-15 15:51:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 44.4°C at 2026-09-15 15:56:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 44.3°C at 2026-09-15 16:01:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 44.5°C at 2026-09-15 16:06:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 44.3°C at 2026-09-15 16:11:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 44.1°C at 2026-09-15 16:16:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 44.4°C at 2026-09-15 16:21:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,666 | WARNING | [CRITICAL] Temperature 44.5°C at 2026-09-15 16:26:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 44.7°C at 2026-09-15 16:31:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 44.6°C at 2026-09-15 16:36:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 44.4°C at 2026-09-15 16:41:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 45.2°C at 2026-09-15 16:46:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 45.0°C at 2026-09-15 16:51:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 44.6°C at 2026-09-15 16:56:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 44.5°C at 2026-09-15 17:01:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 44.5°C at 2026-09-15 17:06:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 42.5°C at 2026-09-15 17:11:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 41.9°C at 2026-09-15 17:16:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 41.0°C at 2026-09-15 17:21:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 41.0°C at 2026-09-15 17:26:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [CRITICAL] Temperature 40.5°C at 2026-09-15 17:31:21 exceeds the critical limit. Immediate action required.
+2026-09-15 19:06:21,667 | WARNING | [WARNING] Temperature 39.8°C at 2026-09-15 17:36:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,667 | WARNING | [WARNING] Temperature 37.6°C at 2026-09-15 17:41:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 38.0°C at 2026-09-15 17:46:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 34.1°C at 2026-09-15 17:51:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 35.1°C at 2026-09-15 17:56:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 35.1°C at 2026-09-15 18:01:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 36.1°C at 2026-09-15 18:06:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 36.4°C at 2026-09-15 18:11:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 39.8°C at 2026-09-15 18:16:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 39.0°C at 2026-09-15 18:21:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 39.2°C at 2026-09-15 18:26:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 38.6°C at 2026-09-15 18:31:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 38.6°C at 2026-09-15 18:36:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 38.6°C at 2026-09-15 18:41:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 38.0°C at 2026-09-15 18:46:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 34.5°C at 2026-09-15 18:51:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,668 | WARNING | [WARNING] Temperature 35.0°C at 2026-09-15 18:56:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,669 | WARNING | [WARNING] Temperature 34.5°C at 2026-09-15 19:01:21 is above the safe band. Check cooling.
+2026-09-15 19:06:21,669 | INFO | Alert count: 116 of 200 records
+2026-09-15 19:06:21,970 | INFO | Analysis complete: {'mean_temperature': 39.58495, 'min_temperature': 24.34, 'max_temperature': 49.2, 'mean_humidity': 51.243, 'count_normal': 84, 'count_warning': 47, 'count_critical': 69, 'n': 200}
+2026-09-15 19:06:22,800 | INFO | Plot saved to /data/work/projects/iot_environment_monitor/plots/temperature_over_time.png
+2026-09-15 19:06:23,529 | INFO | Saved model to /data/work/projects/iot_environment_monitor/models/decision_tree_model.joblib
+2026-09-15 19:06:23,534 | INFO | Predicted Normal for sample {'Temperature': 33.0, 'Humidity': 42.0} (accuracy=1.000)

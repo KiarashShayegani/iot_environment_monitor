@@ -15,7 +15,7 @@ PLOT_PATH = PLOTS_DIR / "temperature_over_time.png"
 LOG_PATH = LOGS_DIR / "run.log"
 
 # --- Tunable constants (professor-change friendly) ---------------------------
-NUM_SAMPLES = 100  # change this number; must stay >= 50
+NUM_SAMPLES = 200  # change this number; must stay >= 50
 
 TEMP_MIN = 15.0
 TEMP_MAX = 60.0
@@ -27,6 +27,8 @@ HUM_MAX = 98.0
 # Critical if temperature > THRESHOLD_CRITICAL
 THRESHOLD_WARNING = 30.0
 THRESHOLD_CRITICAL = 40.0
+
+HUM_THSH_WARNING = 50
 
 VALID_STATUSES = ("Normal", "Warning", "Critical")
 
@@ -63,12 +65,16 @@ def classify_status(temperature: float | None, humidity: float | None = None) ->
     """
     if temperature is None:
         return "Unknown"
+    if (temperature < 0 or temperature > 100) or (humidity is not None and (humidity < 0 or humidity > 100)):
+        return "Invalid"
 
-    if temperature <= THRESHOLD_WARNING:
-        return "Normal"
-    if temperature <= THRESHOLD_CRITICAL:
+    hum_high = humidity is not None and humidity > HUM_THSH_WARNING
+
+    if temperature > THRESHOLD_CRITICAL and hum_high:
+        return "Critical"
+    if temperature > THRESHOLD_WARNING and hum_high:
         return "Warning"
-    return "Critical"
+    return "Normal"
 
 
 def status_alert(status: str, temperature: float, time_str: str) -> str | None:
