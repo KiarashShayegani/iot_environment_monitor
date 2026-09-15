@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from utils import CSV_PATH, PLOT_PATH, ensure_dirs, setup_logging
+from utils import CSV_PATH, PLOT_PATH, ensure_dirs, setup_logging, THRESHOLD_WARNING, THRESHOLD_CRITICAL
 
 logger = setup_logging()
 
@@ -21,14 +21,15 @@ def plot_temperature(df: pd.DataFrame, out=PLOT_PATH) -> Path:
     ax.set_facecolor("#f7f9fb")
 
     ax.plot(times, df["Temperature"], color="#2f6690", linewidth=1.6, label="Temperature")
+    ax.plot(times, df["Humidity"], color="blue", linewidth=1, label="Humidity", alpha=0.7)
 
     warn = df["Status"] == "Warning"
     crit = df["Status"] == "Critical"
     ax.scatter(times[warn], df.loc[warn, "Temperature"], color="#e0a537", s=28, zorder=3, label="Warning")
     ax.scatter(times[crit], df.loc[crit, "Temperature"], color="#d1495b", s=36, zorder=4, label="Critical")
 
-    ax.axhline(30, color="#9aa5b1", linestyle="--", linewidth=0.8, alpha=0.8)
-    ax.axhline(35, color="#d1495b", linestyle="--", linewidth=0.8, alpha=0.8)
+    ax.axhline(THRESHOLD_WARNING, color="#9aa5b1", linestyle="--", linewidth=0.8, alpha=0.8)
+    ax.axhline(THRESHOLD_CRITICAL, color="#d1495b", linestyle="--", linewidth=0.8, alpha=0.8)
 
     ax.set_title("Environment temp. over time", color="#1f2937", pad=12)
     ax.set_xlabel("Time", color="#374151")

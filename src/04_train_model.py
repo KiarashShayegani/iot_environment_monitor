@@ -21,7 +21,7 @@ def train(df: pd.DataFrame):
     x = df[["Temperature", "Humidity"]]
     y = df["Status"]
     x_train, x_test, y_train, y_test = train_test_split(
-        x, y, test_size=0.25, random_state=42, stratify=y if y.nunique() > 1 else None
+        x, y, test_size=0.25, random_state=42, stratify=y if y.nunique() >= 2 else None
     )
     model = DecisionTreeClassifier(max_depth=4, random_state=42)
     model.fit(x_train, y_train)

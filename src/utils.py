@@ -15,18 +15,18 @@ PLOT_PATH = PLOTS_DIR / "temperature_over_time.png"
 LOG_PATH = LOGS_DIR / "run.log"
 
 # --- Tunable constants (professor-change friendly) ---------------------------
-NUM_SAMPLES = 250  # change this number; must stay >= 50
+NUM_SAMPLES = 100  # change this number; must stay >= 50
 
 TEMP_MIN = 15.0
-TEMP_MAX = 40.0
+TEMP_MAX = 60.0
 HUM_MIN = 20.0
-HUM_MAX = 90.0
+HUM_MAX = 98.0
 
 # Normal  if temperature <= THRESHOLD_WARNING
 # Warning if THRESHOLD_WARNING < temperature <= THRESHOLD_CRITICAL
 # Critical if temperature > THRESHOLD_CRITICAL
 THRESHOLD_WARNING = 30.0
-THRESHOLD_CRITICAL = 35.0
+THRESHOLD_CRITICAL = 40.0
 
 VALID_STATUSES = ("Normal", "Warning", "Critical")
 
