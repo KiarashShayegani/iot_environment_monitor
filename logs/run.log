@@ -319,3 +319,5 @@
 2026-09-14 20:05:11,817 | INFO | Plot saved to /data/work/projects/iot_environment_monitor/plots/temperature_over_time.png
 2026-09-14 20:06:29,333 | INFO | Saved model to /data/work/projects/iot_environment_monitor/models/decision_tree_model.joblib
 2026-09-14 20:06:29,338 | INFO | Predicted Warning for sample {'Temperature': 33.0, 'Humidity': 42.0} (accuracy=1.000)
+2026-09-14 21:42:49,733 | INFO | Plot saved to /data/work/projects/iot_environment_monitor/plots/temperature_over_time.png
+2026-09-14 21:45:52,536 | INFO | Plot saved to /data/work/projects/iot_environment_monitor/plots/temperature_over_time.png

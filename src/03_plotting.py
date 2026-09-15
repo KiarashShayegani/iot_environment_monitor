@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from utils import CSV_PATH, PLOT_PATH, ensure_dirs, setup_logging  # noqa: E402
+from utils import CSV_PATH, PLOT_PATH, ensure_dirs, setup_logging
 
 logger = setup_logging()
 
@@ -17,30 +17,30 @@ def plot_temperature(df: pd.DataFrame, out=PLOT_PATH) -> Path:
     ensure_dirs()
     times = pd.to_datetime(df["Time"])
     fig, ax = plt.subplots(figsize=(12, 5.2))
-    fig.patch.set_facecolor("#0b0d10")
-    ax.set_facecolor("#14181d")
+    fig.patch.set_facecolor("#ffffff")
+    ax.set_facecolor("#f7f9fb")
 
-    ax.plot(times, df["Temperature"], color="#8ba4b8", linewidth=1.6, label="Temperature")
+    ax.plot(times, df["Temperature"], color="#2f6690", linewidth=1.6, label="Temperature")
 
     warn = df["Status"] == "Warning"
     crit = df["Status"] == "Critical"
-    ax.scatter(times[warn], df.loc[warn, "Temperature"], color="#d4a054", s=28, zorder=3, label="Warning")
-    ax.scatter(times[crit], df.loc[crit, "Temperature"], color="#c45c4a", s=36, zorder=4, label="Critical")
+    ax.scatter(times[warn], df.loc[warn, "Temperature"], color="#e0a537", s=28, zorder=3, label="Warning")
+    ax.scatter(times[crit], df.loc[crit, "Temperature"], color="#d1495b", s=36, zorder=4, label="Critical")
 
-    ax.axhline(30, color="#6b7280", linestyle="--", linewidth=0.8, alpha=0.7)
-    ax.axhline(35, color="#c45c4a", linestyle="--", linewidth=0.8, alpha=0.7)
+    ax.axhline(30, color="#9aa5b1", linestyle="--", linewidth=0.8, alpha=0.8)
+    ax.axhline(35, color="#d1495b", linestyle="--", linewidth=0.8, alpha=0.8)
 
-    ax.set_title("Server-room temperature over time", color="#e8ecef", pad=12)
-    ax.set_xlabel("Time", color="#a8b0b8")
-    ax.set_ylabel("Temperature (°C)", color="#a8b0b8")
-    ax.tick_params(colors="#a8b0b8")
+    ax.set_title("Environment temp. over time", color="#1f2937", pad=12)
+    ax.set_xlabel("Time", color="#374151")
+    ax.set_ylabel("Temperature (°C)", color="#374151")
+    ax.tick_params(colors="#374151")
     for spine in ax.spines.values():
-        spine.set_color("#2a3038")
-    ax.legend(facecolor="#1a1f26", edgecolor="#2a3038", labelcolor="#e8ecef")
+        spine.set_color("#d1d5db")
+    ax.legend(facecolor="#ffffff", edgecolor="#d1d5db", labelcolor="#1f2937")
     ax.xaxis.set_major_formatter(mdates.DateFormatter("%H:%M"))
     fig.autofmt_xdate()
     fig.tight_layout()
-    fig.savefig(out, dpi=140)
+    fig.savefig(out, dpi=140, facecolor=fig.get_facecolor())
     plt.close(fig)
     logger.info("Plot saved to %s", out)
     return out
