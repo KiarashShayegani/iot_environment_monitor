@@ -18,7 +18,7 @@ LOG_PATH = LOGS_DIR / "run.log"
 NUM_SAMPLES = 250  # change this number; must stay >= 50
 
 TEMP_MIN = 15.0
-TEMP_MAX = 40.0
+TEMP_MAX = 55.0
 HUM_MIN = 20.0
 HUM_MAX = 90.0
 

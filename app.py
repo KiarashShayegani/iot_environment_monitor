@@ -74,7 +74,7 @@ st.subheader("Records")
 st.dataframe(df, use_container_width=True)
 
 st.subheader("Predict a new reading")
-t = st.number_input("Temperature (°C)", value=33.0, min_value=15.0, max_value=40.0)
+t = st.number_input("Temperature (°C)", value=33.0, min_value=15.0, max_value=55.0)
 h = st.number_input("Humidity (%)", value=42.0, min_value=20.0, max_value=90.0)
 
 
